@@ -1,7 +1,7 @@
 
 #include "StdAfx.h"
 #include <iostream>
-#include "List.h"
+#include "List.h" //
 
 using namespace std;
 
@@ -9,7 +9,7 @@ List::List(void)
 {size = 0;}
 
 
-List::~List(void)
+List::~List(void) //
 {
 }
 

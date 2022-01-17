@@ -2,14 +2,14 @@
 //
 
 #include "stdafx.h"
-#include "list.h"
+#include "list.h" //
 #include <iostream>
 
 int _tmain(int argc, _TCHAR* argv[])
 {
 List L;
 
-L.Insert (10); L.Insert (15); L.Insert (20);
+L.Insert (10); L.Insert (15); L.Insert (20); //
 L.ShowData ();
 L.Delete (15); 
 L.ShowData ();
